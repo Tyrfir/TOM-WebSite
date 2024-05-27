@@ -39,4 +39,3 @@ console.log(trocando.replace(/ /g, '-')) // troca uma letra por algum caracter
 
 console.log(trocando.length) //Mostra qantos caracters tem a string
 
-

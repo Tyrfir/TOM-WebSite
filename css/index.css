@@ -1,34 +1,97 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Arial', sans-serif;
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 30px 80px;
-    background: slateblue;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 1000;
-      
+    backdrop-filter: blur(30px); 
 }
-.logo{
+.logo {
     font-size: 30px;
     color: white;
     text-decoration: none;
     font-weight: 700;
 }
 
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     font-weight: 500;
     font-size: 18px;
     margin: 30px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.bg-slide,
+.bg-slide .circle,
+.bg-slide .circle img,
+.circle-darktransp {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-slide .circle {
+    pointer-events: none;
+    user-select: none;
+    overflow: hidden;
+}
+
+.bg-slide .circle.large,
+.circle-darktransp {
+    clip-path: circle(50% at 50% 50%);
+}
+
+.bg-slide .circle.small {
+    clip-path: circle(30% at 50% 50%); /* Adjust image inside the other image background*/
+    z-index: 12;
+}
+
+.bg-slide .circle img {
+    object-fit: cover; /* Adjust image on page*/
+    transform: rotate(0deg) scale(1);
+}
+
+.circle-darktransp {
+    background: rgba(0, 0, 0, .3);
+}
+
+.bg-slide .content-text {
+    position: absolute;
+    z-index: 100;
+}
+
+.content-text .place h1 {
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: azure;
+}
+
+.content-text .desk h2 {
+    font-size: 29px;
+    letter-spacing: 5px;
+    color: azure;
 }

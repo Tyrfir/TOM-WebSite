@@ -9,4 +9,4 @@ The project is create and feeded by [Tyrfir](https://www.github.com/Tyrfir)
 
 >All rights reserved's to TOM and Tyrfir
 
-![Image](https://cdn.discordapp.com/attachments/1228131773477687317/1239658389546729492/Icone_para_a_Wiki_-_Rag.png?ex=6643b957&is=664267d7&hm=aec6ba1cc44f115932a0e488795d66cd485efc0a2a9849abae36679a0d89642a&)
+![Image](https://cdn.discordapp.com/attachments/1228131773477687317/1239658389546729492/Icone_para_a_Wiki_-_Rag.png?ex=666751d7&is=66660057&hm=c9a9bbaa35cb12687ed1203597ebe4f8107ebcc18c622c3ba1f713fb3123c8c0&)
